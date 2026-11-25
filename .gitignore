@@ -1,0 +1,6 @@
+# files your script writes while you work
+slime.glb
+slime.gltf
+slime.bin
+*.blend1
+__pycache__/
