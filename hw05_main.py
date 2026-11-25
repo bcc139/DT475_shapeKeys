@@ -77,8 +77,8 @@ def add_smile_driver(base, rig):
         bone Y  0.0 -> 0     0.15 -> 0.5     0.3 or more -> 1     below 0 -> 0
     Use a Transform Channel variable (type "TRANSFORMS", transform_type
     "LOC_Y", transform_space "LOCAL_SPACE") and a SIMPLE expression, so it
-    works without "Auto Run Python Scripts".  The class demo sk3_driver.py
-    shows every line you need.  (The Smile slider is 0..1, so Blender clamps
+    works without "Auto Run Python Scripts".  The class demo
+    class_demos/sk3_driver.py shows every line you need.  (The Smile slider is 0..1, so Blender clamps
     the value for you; clamp(x) in the expression makes it explicit.)
     """
     raise NotImplementedError("add_smile_driver")

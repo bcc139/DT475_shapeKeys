@@ -23,6 +23,7 @@ You get a slime as four OBJ files: the rest shape plus a squashed, a stretched a
 | `hw05_helper.py` | Scene setup and the auto-check. Keep it next to `hw05_main.py`. You do not need to read it. |
 | `models/` | `slime_base.obj`, `slime_squash.obj`, `slime_stretch.obj`, `slime_smile.obj` (12 434 vertices each, same order), `slime_wrong.obj` (different vertex count, used to test your error check) |
 | `answers_template.md` | Copy to `answers.md` and fill in. |
+| `class_demos/sk3_driver.py` | The class demo for Task 3: a bone bends an arm and a driver sets the Bulge shape key. Run it in an empty file to see a working driver. |
 
 ## Get the files
 
@@ -91,7 +92,6 @@ In `answers.md`, in your own words:
 | Tasks 1–4 (check report) | 8.5 |
 | Written answers | 1.0 |
 | Code quality (readable, comments, no `bpy.ops.object.join_shapes`) | 0.5 |
-| **Bonus**: retarget a different BVH clip (e.g. from the CMU mocap library) onto the class Robot with `retarget.py` and an updated `BONE_MAP`; submit the script and a short video or GIF | +1 |
 
 The check you run is the one used for marking. A script that stops early loses the checks after the crash.
 
@@ -104,12 +104,11 @@ Watch, then do the same in Blender. Most use Blender 2.8–4.x: the UI is close 
 | Shape keys in the UI | [Shape Keys for Beginners (Blender Tutorial)](https://www.youtube.com/watch?v=Kumk-reupso) · [Blender Tutorial – Shape Key Basics](https://www.youtube.com/watch?v=7WGtmADZCzU) |
 | Drive a key with a bone (Task 3) | [Control Shape Keys with Bones in Blender](https://www.youtube.com/watch?v=nGtCsHyyDtQ) · [Drive a Shape Key with a Bone](https://www.youtube.com/watch?v=yKYDgOkRAqY) |
 | Shape keys from Python | [Color Slices Part 3 – Adding a Shape Key](https://www.youtube.com/watch?v=5cYn5WuyiWI) · [Part 4 – Animating a Shape Key](https://www.youtube.com/watch?v=e3eH1bq1D_U) |
-| Mocap and retargeting (bonus) | [CGDive: Mocap & Retargeting in Blender #1](https://www.youtube.com/watch?v=Wm4me6ZZRk8) · [#3 Import FBX & BVH](https://www.youtube.com/watch?v=6IbNZl7Qcbw) · [Retargeting to "weird" Rigs](https://www.youtube.com/watch?v=ZfLU2NXWsUE) · [Free mocap files (CMU BVH)](https://www.youtube.com/watch?v=PG0qli4e82s) |
 | File formats | [What is glTF?](https://www.youtube.com/watch?v=tonSNnEj-ow) · [Learn OpenUSD: What Are the USD File Formats?](https://www.youtube.com/watch?v=Cbx4EkjPe2A) |
 
 ## Submit
 
-One folder named with your student ID: `hw05_main.py`, `answers.md`, and the bonus files if you did it. Do not submit the models.
+One folder named with your student ID: `hw05_main.py` and `answers.md`. Do not submit the models.
 
 ## Troubleshooting
 
